@@ -44,12 +44,8 @@ console.log(minutesToSeconds1, minutesToSeconds2, minutesToSeconds3);
 // Let op: je mag hier geen String methoden voor gebruiken zoals concat().
 // ---- Verwachte uitkomsten:
 // merge("abra", "cadabra") geeft "abracadabra"
-// merge("zoet", "sappig") geeft "zoetsappig"
-
-
-
-
-/* Opdracht  4 */
+// ik ga hier een verhaaltje vertellen
+// er was eens ..... en toen niet meer
 // Schrijf een functie genaamd calculateDogYears die de hondenleeftijd verwacht en dit omrekent naar mensenjaren (1 tot 7). Op basis daarvan wordt een zinnetje teruggegeven.
 // ---- Verwachte uitkomsten:
 // calculateDogYears(6) geeft "Jouw hond is 42 jaar oud in mensenjaren."
