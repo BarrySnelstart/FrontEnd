@@ -44,8 +44,19 @@ console.log(minutesToSeconds1, minutesToSeconds2, minutesToSeconds3);
 // Let op: je mag hier geen String methoden voor gebruiken zoals concat().
 // ---- Verwachte uitkomsten:
 // merge("abra", "cadabra") geeft "abracadabra"
-// ik ga hier een verhaaltje vertellen
-// er was eens ..... en toen niet meer
+// merge("zoet", "sappig") geeft "zoetsappig"
+
+const merge = (string1, string2) => {
+return merge
+}
+
+const sweetJuicy = merge("soet","sappig");
+console.log(sweetJuicy);
+const tover = merge ("abra","cadabra");
+console.log(tover);
+
+
+/* Opdracht  4 */
 // Schrijf een functie genaamd calculateDogYears die de hondenleeftijd verwacht en dit omrekent naar mensenjaren (1 tot 7). Op basis daarvan wordt een zinnetje teruggegeven.
 // ---- Verwachte uitkomsten:
 // calculateDogYears(6) geeft "Jouw hond is 42 jaar oud in mensenjaren."
@@ -53,11 +64,11 @@ console.log(minutesToSeconds1, minutesToSeconds2, minutesToSeconds3);
 const calculateDogYears = (dogyear) => {
   return dogyear * 7
 }
+
 const dog6 = calculateDogYears(6);
 console.log("blafblaf = " + dog6 + " jaren oud")
 const dog2 = calculateDogYears(2);
 console.log("blafblaf = " + dog2 + " jaren oud")
-    // waarom git je niet
 
 /* Opdracht 5 */
 // Schrijf een functie genaamd wrapper, die twee parameters verwacht: een woord en een karakter
