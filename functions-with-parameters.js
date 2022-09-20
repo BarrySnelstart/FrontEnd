@@ -61,6 +61,7 @@ const dog6 = calculateDogYears(6);
 console.log("blafblaf = " + dog6 + " jaren oud")
 const dog2 = calculateDogYears(2);
 console.log("blafblaf = " + dog2 + " jaren oud")
+    // waarom git je niet
 
 /* Opdracht 5 */
 // Schrijf een functie genaamd wrapper, die twee parameters verwacht: een woord en een karakter
