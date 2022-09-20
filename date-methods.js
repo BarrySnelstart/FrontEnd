@@ -18,3 +18,4 @@ console.log("Het is nu : " + currentDay.getHours()+ " en " +currentDay.getMinute
 /* Opdracht 2 */
 // Format het date-object dat je bij de vorige vraag hebt gemaakt naar een leesbare datum
 // ---- Verwachte uitkomst: Tue Apr 06 2021 (afhankelijk van het moment)
+console.log(currentDay.toDateString());
