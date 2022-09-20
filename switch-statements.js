@@ -11,6 +11,7 @@ const errorCode = 0;
 // 3: "Afvalbak vol"
 // 4: "Geen druk"
 
+
 // Verwachtte uitkomsten:
 // const errorCode = 0 geeft "Geen watertoevoer" in de terminal
 // const errorCode = 4 geeft "Geen druk" in de terminal
