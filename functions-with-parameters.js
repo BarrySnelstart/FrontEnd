@@ -77,13 +77,25 @@ console.log("blafblaf = " + dog2 + " jaren oud")
 // wrapper("bril", "*") geeft "*bril*"
 // wrapper("beep", "_") geeft "_beep_"
 // wrapper("kaas", "Q") geeft "QkaasQ"
-
-
-
+const wrapper = (param1,param2) => {
+  return param1 + param2 + param1;
+}
+const bril = wrapper('*','bril');
+console.log(bril);
+const beep = wrapper('_','beep');
+console.log(beep);
+const kaas = wrapper('Q','kaas');
+console.log(kaas);
 /* Bonus opdracht  */
 // Schrijf een functie genaamd createDetailString, die een object met de properties firstName, lastName en profession verwacht en een zin teruggeeft
 // ---- Verwachte uitkomsten:
 // createDetailString({ firstName: 'Jan', lastName: 'Jansen', profession: 'docent'}) geeft "Het beroep vam Jan Jansen is docent."
 // createDetailString({ firstName: 'Kees', lastName: 'Klaasen', profession: 'brandweerman'}) geeft "Het beroep vam Kees Klaasen is brandweerman."
+const createDetailString = (firstName, lastName, profession) => {
+  return "Het beroep vam "+ firstName + " " +lastName + " is " +profession
+}
 
-
+const createDetailStringJansen = createDetailString("Jan","Jansen", "docent")
+const createDetailStringklaas = createDetailString("kees","klazen", "brandweerman")
+console.log(createDetailStringJansen);
+console.log(createDetailStringklaas);
