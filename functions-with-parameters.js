@@ -35,7 +35,13 @@ console.log(result);
 // merge("abra", "cadabra") geeft "abracadabra"
 // merge("zoet", "sappig") geeft "zoetsappig"
 
-
+const merge = (string1, string2) => {
+return merge
+}
+const sweetJuicy = merge("soet","sappig");
+console.log(sweetJuicy);
+const tover = merge ("abra","cadabra");
+console.log(tover);
 
 
 /* Opdracht  4 */
