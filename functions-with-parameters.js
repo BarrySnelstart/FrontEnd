@@ -16,8 +16,13 @@ console.log(result);
 // ---- Verwachte uitkomsten:
 // greeter("Jan") geeft "Hoi Jan!"
 // greeter("Kees") geeft "Hoi Kees!"
-
-
+const greeter = (name) => {
+  return name
+}
+const greetJan = greeter('jan');
+const greetKees = greeter('kees');
+console.log("Hoi " + greetJan + "!");
+console.log("Hoi " + greetKees+ "!");
 
 /* Opdracht 2 */
 // Schrijf een functie genaamd minutesToSeconds, die een hoeveelheid minuten verwacht (als een getal) en teruggeeft hoeveel seconden dat zijn.
@@ -25,8 +30,14 @@ console.log(result);
 // minutesToSeconds(1) geeft 60
 // minutesToSeconds(3) geeft 180
 // minutesToSeconds(23) geeft 1380
+const minutesToSeconds = (minutesToSeconds) => {
+  return minutesToSeconds * 60
+}
 
-
+const minutesToSeconds1 = minutesToSeconds(1);
+const minutesToSeconds2 = minutesToSeconds(3);
+const minutesToSeconds3 = minutesToSeconds(23);
+console.log(minutesToSeconds1, minutesToSeconds2, minutesToSeconds3);
 
 /* Opdracht 3 */
 // Schrijf een functie genaamd merge, die twee strings verwacht en deze aan elkaar geplakt teruggeeft.
@@ -43,8 +54,13 @@ console.log(result);
 // ---- Verwachte uitkomsten:
 // calculateDogYears(6) geeft "Jouw hond is 42 jaar oud in mensenjaren."
 // calculateDogYears(2) geeft "Jouw hond is 14 jaar oud in mensenjaren."
-
-
+const calculateDogYears = (dogyear) => {
+  return dogyear * 7
+}
+const dog6 = calculateDogYears(6);
+console.log("blafblaf = " + dog6 + " jaren oud")
+const dog2 = calculateDogYears(2);
+console.log("blafblaf = " + dog2 + " jaren oud")
 
 /* Opdracht 5 */
 // Schrijf een functie genaamd wrapper, die twee parameters verwacht: een woord en een karakter
