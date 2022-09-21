@@ -27,8 +27,6 @@ const kleurtjes = ['groen','geel','rood','paars','blaauw','oranje'];
 console.log(kleurtjes[4])
 console.log(kleurtjes[1])
 
-
-
 // ==========================================
 // 5a. Declareer een variabele met daarin een array met de waardes 21, 22, 23, 25, 25 en log dit in de terminal
 // 5b. Overschrijf één van de items in de array dusdanig dat de cijferreeks netjes doorloopt (je mag de declaratie op de vorige regel niet aanpassen).
@@ -45,6 +43,6 @@ console.log(cijferreeks);
 // 6d. Log de lengte van de array in de terminal                                            // geeft 3
 // ==========================================
 const lasagnaRecept = ["bladerdeeg", "knoflook", "spinazie"]
-lasagnaRecept[0] = "bladerdeeg"
+lasagnaRecept[0] = "lasagnaBladen"
 console.log(lasagnaRecept);
 console.log(lasagnaRecept.length);
