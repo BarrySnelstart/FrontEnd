@@ -16,9 +16,10 @@ console.log(result);
 // ---- Verwachte uitkomsten:
 // greeter("Jan") geeft "Hoi Jan!"
 // greeter("Kees") geeft "Hoi Kees!"
-const greeter = (name) => {
-  return name
+function greeter(name)  {
+  return name;
 }
+
 const greetJan = greeter('jan');
 const greetKees = greeter('kees');
 console.log("Hoi " + greetJan + "!");
