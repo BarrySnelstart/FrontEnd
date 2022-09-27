@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "ons eerste project met unit testen",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "test:watch": "npx jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BarrySnelstart/FrontEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BarrySnelstart/FrontEnd/issues"
+  },
+  "homepage": "https://github.com/BarrySnelstart/FrontEnd#readme",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
